@@ -16,12 +16,25 @@ import { createVuetify } from 'vuetify'
 const myTheme = {
   colors: {
     primary: colors.blueGrey.darken3,
+    'primary-lighten-1': colors.blueGrey.darken2,
+    'primary-lighten-2': colors.blueGrey.darken1,
+    'primary-lighten-3': colors.blueGrey.base,
+
     secondary: "#edb976",
     accent: colors.blueGrey.darken4,
     error: colors.red.darken4,
     background: colors.grey.lighten3,
-    cinelog_primary: "#320b86",
-    cinelog_secondary: "#790e8b",
+
+    cinelog_primary: colors.purple.base,
+    'cinelog_primary-lighten-1': colors.purple.lighten1,
+    'cinelog_primary-lighten-2': colors.purple.lighten2,
+    'cinelog_primary-darken-1': colors.purple.base,
+
+    cinelog_secondary: colors.purple.darken3,
+    'cinelog_secondary-lighten-1': colors.purple.darken2,
+    'cinelog_secondary-darken-1': colors.purple.darken4,
+
+
     white_color: "#fff"
   },
 }

@@ -1,6 +1,5 @@
 <template>
   <v-app>
-    <Toolbar></Toolbar>
     <v-main>
       <router-view />
     </v-main>
@@ -8,8 +7,6 @@
 </template>
 
 <script lang="ts" setup>
-import Toolbar from './components/Toolbar.vue';
-
   //
 </script>
 

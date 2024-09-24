@@ -12,7 +12,7 @@
     <span class="title-font text-secondary">{{ title }}</span>
     <span class="extension-font text-secondary">.com</span>
     
-    <div class="subtitle-font text-red-lighten-1">
+    <div class="subtitle-font text-primary-lighten-3">
       Pierre Rognon
     </div>
   </v-app-bar-title>
@@ -42,7 +42,7 @@
       </template> 
       Albums
     </v-btn>
-    <v-btn :to="{ path: '/cinelog/home' }" class="text-secondary bg-cinelog_primary">
+    <v-btn :to="{ path: '/cinelog/home' }" class="text-cinelog_secondary-darken-1 bg-cinelog_primary">
     <v-img :height="30" :width="30" class="mr-2" :src="imgUrl"/>
     CineLog
     </v-btn>
