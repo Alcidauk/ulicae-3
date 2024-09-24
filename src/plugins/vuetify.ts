@@ -34,6 +34,8 @@ const myTheme = {
     'cinelog_secondary-lighten-1': colors.purple.darken2,
     'cinelog_secondary-darken-1': colors.purple.darken4,
 
+    code_bg: colors.grey.lighten3,
+
 
     white_color: "#fff"
   },

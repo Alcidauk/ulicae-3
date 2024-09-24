@@ -33,10 +33,10 @@
       :to="{ path: tabs[n - 1].path }" 
       :x-large="!$vuetify.display.mobile" 
       :large="$vuetify.display.smAndUp" 
-      color="secondary">
+      color="primary">
       <v-icon 
       :icon="'fas ' + tabs[n - 1].icon" 
-      color="primary"
+      color="secondary"
       :size="!$vuetify.display.mobile ? 30 : $vuetify.display.smAndUp ? 25 : 20">
     </v-icon>
   </v-btn>

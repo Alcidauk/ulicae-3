@@ -7,6 +7,8 @@
 // Composables
 import Cv from '@/components/Cv.vue'
 import Home from '@/components/Home.vue'
+import Note from '@/components/Note.vue'
+
 import { createRouter, createWebHistory } from 'vue-router/auto'
 
 
@@ -14,7 +16,8 @@ const routes = [
   { path: '/', component: Home },
   { path: '/home', component: Home },
   { path: '/cv', component: Cv },
-  //{ path: '/notes', component: Note },
+  { path: '/notes', component: Note }
+
   /*{
     path: '/portfolio',
     component: Portfolio,

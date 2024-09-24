@@ -35,4 +35,15 @@
 
 html { overflow-y: auto }
 
+ul {
+  padding-left: 24px;
+}
+
+code {
+    background-color: rgba(0,0,0,.05);
+    color: var(--v-primary-code);
+
+    background: rgb(var(--v-theme-code_bg));
+}
+
 </style>

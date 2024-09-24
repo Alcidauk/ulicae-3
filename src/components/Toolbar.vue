@@ -12,7 +12,7 @@
     <span class="title-font text-secondary">{{ title }}</span>
     <span class="extension-font text-secondary">.com</span>
     
-    <div class="subtitle-font text-primary-lighten-3">
+    <div class="subtitle-font text-primary-lighten-2">
       Pierre Rognon
     </div>
   </v-app-bar-title>

@@ -1,13 +1,14 @@
 <template>
   <Toolbar></Toolbar>
-
   CV
 </template>
 
-<script>
+<script setup lang="ts">
+import Toolbar from './Toolbar.vue';
 
 </script>
 
 <style scoped>
+
 </style>
 
