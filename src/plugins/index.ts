@@ -10,9 +10,13 @@ import router from '../router'
 
 // Types
 import type { App } from 'vue'
+import 'viewerjs/dist/viewer.css'
+import VueViewer from 'v-viewer'
+
 
 export function registerPlugins (app: App) {
   app
     .use(vuetify)
     .use(router)
+    .use(VueViewer)
 }

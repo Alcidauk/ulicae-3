@@ -10,6 +10,8 @@ declare module 'vue' {
     Cv: typeof import('./src/components/Cv.vue')['default']
     Home: typeof import('./src/components/Home.vue')['default']
     Note: typeof import('./src/components/Note.vue')['default']
+    Portfolio: typeof import('./src/components/Portfolio.vue')['default']
+    PortfolioCaroussel: typeof import('./src/components/Portfolio-caroussel.vue')['default']
     RouterLink: typeof import('vue-router')['RouterLink']
     RouterView: typeof import('vue-router')['RouterView']
     Toolbar: typeof import('./src/components/Toolbar.vue')['default']

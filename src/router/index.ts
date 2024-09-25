@@ -8,6 +8,8 @@
 import Cv from '@/components/Cv.vue'
 import Home from '@/components/Home.vue'
 import Note from '@/components/Note.vue'
+import PortfolioCaroussel from '@/components/Portfolio-caroussel.vue'
+import Portfolio from '@/components/Portfolio.vue'
 
 import { createRouter, createWebHistory } from 'vue-router/auto'
 
@@ -16,16 +18,15 @@ const routes = [
   { path: '/', component: Home },
   { path: '/home', component: Home },
   { path: '/cv', component: Cv },
-  { path: '/notes', component: Note }
-
-  /*{
+  { path: '/notes', component: Note },
+  {
     path: '/portfolio',
     component: Portfolio,
     children: [
       { path: ':name', component: PortfolioCaroussel }
     ]
   },
-  {
+  /*{
     path: '/cinelog',
     component: Cinelog,
     children: [
