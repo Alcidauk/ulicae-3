@@ -5,9 +5,7 @@
     <v-container >
       <v-row>
         <v-col align="center">
-          <v-flex class="align-center justify-center layout">
             <h1>Portfolio</h1>
-          </v-flex>
         </v-col>
       </v-row>
       
