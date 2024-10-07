@@ -5,7 +5,7 @@
  */
 
 // Composables
-import Cv from '@/components/Cv.vue'
+import Cv from '@/components/cv/Cv.vue'
 import Home from '@/components/Home.vue'
 import Note from '@/components/Note.vue'
 import PortfolioCaroussel from '@/components/Portfolio-caroussel.vue'
